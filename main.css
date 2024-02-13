@@ -1,0 +1,181 @@
+body, html {
+
+    margin: 0;
+    font-family: 'Roboto';font-size: 22px;
+  }
+
+  a{
+
+    text-decoration: none;
+    color: gray;
+  }
+
+  a:hover{
+
+    text-decoration: none;
+    color:white;
+  }
+
+  .info-boxes img{
+
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3b82f6;
+    border-radius: 10px;
+  }
+
+  #info-title{
+    font-size: 36px;
+    font-weight:bold;
+  }
+
+  .big-text{
+
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .hero-text{
+
+    font-weight: bold;
+    font-size: 48px;
+    color: #F9FAF8;
+    
+  }
+
+  .writer-name {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right; 
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    background-color: #1f2937;
+    height: 600px;
+    padding-top: 10px;
+    color: #F9FAF8;
+  }
+
+  .top-head{
+
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between;
+    
+    
+  }
+
+  .bottom-head{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .bottom-head img{
+
+    height: 300px;
+    width: 500px;
+
+  }
+
+  .bottom-head button{
+    border: 0px
+  }
+
+  .links{
+
+    display: flex;
+    gap: 20px;
+  }
+  
+  .info {
+    background-color:#ffffff;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .info-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .infobox{
+
+    max-width: 200px;
+    
+  }
+  
+  .quote {
+    background-color: #e5e7eb;
+    color:#1f2937;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    text-align: right;
+  }
+  
+  .donate {
+    background-color: #ffffff;
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .blue-box {
+    background-color: #3b82f6;
+    color: white;
+    height: 150px;
+    width: 150vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:0px 100px;
+  }
+
+  .donate-button{
+    background-color: #3b82f6;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+  }
+  
+  .footer {
+    background-color: #1f2937;
+    color: whitesmoke;
+    height : 80px;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
